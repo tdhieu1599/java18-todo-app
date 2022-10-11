@@ -1,0 +1,5 @@
+private int sum(int a, int b){
+	if (a + b > inter.max) {
+		throw new RuntimeException("A=B must not be exceed MAX number")}
+	return a + b;
+}
